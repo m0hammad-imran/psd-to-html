@@ -1,0 +1,271 @@
+/*Global css*/
+*{
+	margin: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 1140px;    
+    margin: 0 auto
+}
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+/*Header section css*/
+header{
+	width: 100%; 
+	float: left;
+	background-color: #f2f2f2;
+	padding: 20px 0px;
+}
+/*Banner section css*/
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/bg.png);
+	background-size: cover;
+}
+.banner h1{
+	font-size: 80px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 200px;
+}
+.banner-line{
+	border: 1px solid #15a4fa;
+	width: 40%;
+	margin: 10px auto 15px;
+
+}
+.banner p{
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	
+}
+.btn-primary{
+	background-color: transparent;
+    border: 1px solid#;
+    border: 1px solid #15a4fa;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    margin: 50px auto;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.btn-primary:hover{
+	cursor: pointer;
+	background-color: #15a4fa;
+	box-shadow: 1px 1px 2px;
+}
+.fa-angle-down{
+	color: #fff;
+    margin: 5px auto;
+    text-align: center;
+    text-size-adjust: 16px;
+    width: 100%;
+    font-size: 40px;
+    margin: 0px 0px 50px;
+    float: left;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.fa-angle-down:hover{
+	color: #15a4fa;
+	cursor: pointer;
+	padding-top: 7px;
+
+}
+/* Feauters Section css*/
+.feauters{
+	background-color: #f6f9f9;
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+}
+.feauters h1{
+	text-align: center;
+    padding-bottom: 23px;
+    font-size: 25px;
+}
+.feauters p{
+	color: #999;
+    font-size: 15px;
+    line-break: 10px;
+    line-height: 27px;
+    text-align: center;
+    padding: 0px 157px;
+}
+/*Feauters icon section css*/
+.feauters-icon{
+	width: 100%;
+	background-color: #fff;
+	padding: 50px 0px;
+	float: left;
+} 
+.icon{
+	width: 33.33%;
+	float: left;
+}
+.icon h3{
+	font-size: 23px;
+    text-align: center;
+    padding: 12px 0px;
+}
+.icon p{
+	text-align: center;
+    padding: 1px 23px;
+}
+.icon img{
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+.icon img:hover{
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+	cursor: pointer;
+}
+/*Portfolio section css*/
+
+.Portfolio{
+	width: 100%;
+	float: left;
+	background-color: #f9f9f9;
+	padding: 30px 0px;
+}
+.Portfolio h1{
+	text-align: center;
+	padding-top: 40px;
+	font-size: 35px
+
+}
+.Portfolio p{
+	text-align: center;
+    padding: 20px 0px;
+
+}
+.image{
+	width: 33.33%;
+	float: left;
+	padding: 8px 0px;
+}
+.image:hover{
+	
+	cursor: pointer;
+
+}
+/*Stay-with-us section css*/
+
+.stay-with-us{
+	width: 100%;
+	float: left;
+	background: url(../img/stay-with-us.png);
+	padding: 24px 0px;
+    margin: 38px 0px;
+    background-size: cover;
+}
+.stay-with-us h3{
+	text-align: center;
+	font-size: 30px;
+	color: #bec0c4;
+
+}
+.stay-with-us p{
+	text-align: center;
+    color: #bec0c4;
+    padding: 12px 0px;
+    font-size: 10px;
+}
+.comment{
+	    margin: 28px 480px;
+}
+.name{
+	padding: 10px 14px;
+    margin: 9px -115px;
+    width: 380px;
+    color: #8a8a8a;
+    background-color: #2e384b;
+    border-color: #b5b3b3;
+    border-radius: 5px;
+}
+.email{
+	padding: 10px 14px;
+    margin: 9px -115px;
+    width: 380px;
+    color: #8a8a8a;
+    background-color: #2e384b;
+    border-color: #b5b3b3;
+    border-radius: 5px;
+}
+.messege{
+	padding: 10px 14px;
+    margin: 9px -115px;
+    width: 380px;
+    color: #8a8a8a;
+    background-color: #2e384b;
+    border-color: #b5b3b3;
+    height: 80px;
+    border-radius: 5px;
+
+}
+.send{
+	margin: 0px 222px;
+    color: #757575;
+    background-color: #2222;
+    padding: 4px 15px;
+    border-color: #5fc3ff;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.send:hover{
+	cursor: pointer;
+	background-color: #5fc3ff;
+	transition: 0.5s; 
+}
+.comment h5{
+	color: #c7c9cc;
+    margin: -16px -91px;
+    font-size: 11px;
+}
+.fa{
+	margin: 0px -112px;
+    color: #99a0a9;
+    font-size: 15px;
+}
+/*Foter section css*/
+.Footer{
+	width: 100%;
+	float: left;
+}
+.social-icon{
+	float: right;
+    padding: 9px 2px;
+    margin: -29px 1px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.social-icon:hover{
+	cursor: pointer;
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+
+}
